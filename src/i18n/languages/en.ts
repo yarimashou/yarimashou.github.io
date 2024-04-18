@@ -3,31 +3,31 @@ import type { Translation } from '../translation'
 
 export const en: Translation = {
   [Key.home]: 'Home',
-  [Key.about]: 'About',
-  [Key.archive]: 'Archive',
+  [Key.about]: 'Sobre',
+  [Key.archive]: 'Arquivo',
 
   [Key.tags]: 'Tags',
-  [Key.categories]: 'Categories',
-  [Key.recentPosts]: 'Recent Posts',
+  [Key.categories]: 'Categorias',
+  [Key.recentPosts]: 'Posts Recentes',
 
-  [Key.comments]: 'Comments',
+  [Key.comments]: 'Comentários',
 
-  [Key.untitled]: 'Untitled',
-  [Key.uncategorized]: 'Uncategorized',
-  [Key.noTags]: 'No Tags',
+  [Key.untitled]: 'Sem título',
+  [Key.uncategorized]: 'Sem categoria',
+  [Key.noTags]: 'Sem Tags',
 
-  [Key.wordCount]: 'word',
-  [Key.wordsCount]: 'words',
-  [Key.minuteCount]: 'minute',
-  [Key.minutesCount]: 'minutes',
+  [Key.wordCount]: 'palavra',
+  [Key.wordsCount]: 'palavras',
+  [Key.minuteCount]: 'minuto',
+  [Key.minutesCount]: 'minutos',
   [Key.postCount]: 'post',
   [Key.postsCount]: 'posts',
 
-  [Key.themeColor]: 'Theme Color',
+  [Key.themeColor]: 'Cor do tema',
 
-  [Key.more]: 'More',
+  [Key.more]: 'Mais',
 
-  [Key.author]: 'Author',
-  [Key.publishedAt]: 'Published at',
-  [Key.license]: 'License',
+  [Key.author]: 'Autor',
+  [Key.publishedAt]: 'Publicado em',
+  [Key.license]: 'Licença',
 }

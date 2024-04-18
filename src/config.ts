@@ -7,9 +7,9 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'Fuwari',
-  subtitle: 'Demo Site',
-  lang: 'en',
+  title: 'Yarimashou!',
+  subtitle: 'Um site sobre o que eu joguei, vi ou assisti',
+  lang: 'pt_BR',
   themeHue: 250,
   banner: {
     enable: false,
@@ -18,37 +18,28 @@ export const siteConfig: SiteConfig = {
 }
 
 export const navBarConfig: NavBarConfig = {
-  links: [
-    LinkPreset.Home,
-    LinkPreset.Archive,
-    LinkPreset.About,
-    {
-      name: 'GitHub',
-      url: 'https://github.com/saicaca/fuwari',
-      external: true,
-    },
-  ],
+  links: [LinkPreset.Home, LinkPreset.Archive, LinkPreset.About],
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',
-  name: 'Lorem Ipsum',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  avatar: 'assets/images/avatar.jpeg',
+  name: 'Marcelo Mogami',
+  bio: 'Dev nas horas vagas, nerd o restante do tempo.',
   links: [
     {
       name: 'Twitter',
       icon: 'fa6-brands:twitter',
-      url: 'https://twitter.com',
+      url: 'https://twitter.com/marcelomogami',
     },
     {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
+      name: 'Instagram',
+      icon: 'fa6-brands:instagram',
+      url: 'https://instagram.com/marcelomogami',
     },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
-      url: 'https://github.com/saicaca/fuwari',
+      url: 'https://github.com/marcelomogami',
     },
   ],
 }
